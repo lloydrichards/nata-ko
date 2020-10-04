@@ -63,7 +63,7 @@ const PageName = () => {
 export default PageName;
 ```
 
-1. If you want the webpage to have the same NavBar and Footer then use the Layout component and add your content inside.
+3. If you want the webpage to have the same NavBar and Footer then use the Layout component and add your content inside.
 
 ```js
 import React from 'react';
@@ -76,7 +76,7 @@ const PageName = () => {
 export default PageName;
 ```
 
-1. Add the title and description for the page for SEO purposes.
+4. Add the title and description for the page for SEO purposes.
 
 ```js
 return (
@@ -90,7 +90,7 @@ return (
 );
 ```
 
-1. If you want to add JS components, make sure they are built inside the /component folder. Otherwise, anything can be added inside the Layout
+5. If you want to add JS components, make sure they are built inside the /component folder. Otherwise, anything can be added inside the Layout
 
 ## Add Images
 
