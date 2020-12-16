@@ -2,11 +2,11 @@
 import { css, jsx } from '@emotion/core';
 import { motion, useCycle } from 'framer-motion';
 import { useRef } from 'react';
-import About from './About/About';
-import AboutButton from './About/AboutButton';
-import Menu from './Menu/Menu';
-import MenuButton from './Menu/MenuButton';
-import { useDimensions } from './util/useDimentions';
+import About from './About/About.js';
+import AboutButton from './About/AboutButton.js';
+import Menu from './Menu/Menu.js';
+import MenuButton from './Menu/MenuButton.js';
+import { useDimensions } from './util/useDimentions.js';
 
 const sidebar = {
   open: (height = 1000) => ({
