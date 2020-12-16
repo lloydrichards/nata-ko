@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { css, jsx, keyframes } from '@emotion/core';
 import { useEffect, useRef, useState } from 'react';
-import useResizeObserver from './util/useResizeObservable';
+import useResizeObserver from './util/useResizeObservable.js';
 
 const FadeInOut = keyframes`0% {
     opacity: 1;

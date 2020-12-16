@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
-import NavBar from './NavBar';
-import Footer from './Footer';
+import NavBar from './NavBar.js';
+import Footer from './Footer.js';
 
 const Layout = ({ children, subtitle, description, previewImage }) => {
   return (
