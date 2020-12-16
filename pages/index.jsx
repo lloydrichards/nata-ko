@@ -1,5 +1,5 @@
-import Layout from '../components/layout.jsx';
-import Slideshow from '../components/Slideshow.jsx';
+import Layout from '../components/layout';
+import Slideshow from '../components/Slideshow';
 
 export default function Home() {
   return (
